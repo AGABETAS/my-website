@@ -1,0 +1,188 @@
+<?php
+	session_start();
+?>
+<html>
+<head>
+		<title>Homepage</title>
+<style>
+			input {
+    			border: 1.5px solid #030337;
+    			border-radius: 4px;
+    			padding: 7px 30px;
+			}
+			input[type=submit] {
+				background-color: #030337;
+				color: white;
+    			border-radius: 4px;
+    			padding: 7px 45px;
+    			margin: 0px 60px
+			}
+
+			
+	
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ffffff;
+}
+.container{
+    width: 85vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 57%;
+    left: 80%;
+    overflow: hidden;
+    border: 0px solid #ffffff;
+    border-radius: 0px;
+    box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+img{
+    width: 100%;
+}
+</style>
+    
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+</head>
+
+<body>
+    
+    <br/> <br/>    
+ <center>      
+	<h2 id="title">ONLINE BUSINESS 	</h2>	
+     <br/> <br/>
+</center>
+		<div>
+			<ul>
+				<li><a href="homepage.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+				<li><a href="about_us.php"><i class="fa fa-plane" aria-hidden="true"></i> About Us</a></li>
+				<li><a href="conduct_us.php"><i class="fa fa-phone" aria-hidden="true"></i> Contact Us</a></li>
+                
+		  </ul>
+		</div>
+
+<br/><br/>
+<p>
+This website invites you as a client to view<br/>
+ available services that we can offer to you<br/>
+  at an affordable price and we work at a great<br/>
+  efficient with no error work. we provide quality<br/>
+   work, TRY it and see yourself.<br/>
+    we feel great appriciateful for your convinience.<br/><br/>
+</p>
+	 <img src="img/imgg.gif" width="100" height="100">
+<div style="margin-left:0%; pading:1px 16px; height:200px;">
+    
+  <h2 >Basic Info</h2>
+ 
+<p style="color:green" >
+  <em>
+    
+    Bachelors of science in Information technology<br  />
+        Bachelors of science in food and nutrition<br  />
+        Bachelors of science in bioagriculture<br  />
+        Bachelors of science in Energy renuable<br  />
+        Bachelors of science in Education<br  />
+        Bachelor of Commarce<br  />
+</em>  
+</p>
+
+</div> 
+<table cellpadding="5">
+  <tr>
+  		<td class="admin_func"> <a href="kibu.php">www.kibu.ac.ke</a></td>
+  </tr>
+</table>
+  
+<p style="color:green" >
+<em>
+
+        Bachelors of science in Information technology<br  />
+        Bachelors of science in food and nutrition<br  />
+        Bachelors of science in bioagriculture<br  />
+        Bachelors of science in Energy renuable<br  />
+        Bachelors of science in Education<br  />
+        Bachelor of Commarce<br  />
+</em>  
+</p>
+<br/>
+<br/>
+<center>
+<h4 style="background-color:#030337;">
+<p style="color:white;">
+<strong>
+	
+    <br/><br/>  
+     
+    HELP CENTER 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    CONDUCT US	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     AVAILABILITY & ACCESSBILITY<br/><br/>
+     
+    RETURN POLICY	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     CORPORATE & BULK PURCHASES<br/><br/><br/><br/>
+     
+    BECOME OUR CLIENT<br/><br/><br/><br/>
+    
+    RJ COMPANY WITH PARTNERSHIP PROGRAM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     REPORT IF POSSIBLE<br/><br/>
+     
+    CONDUCT & PICK UP POINT APPLICATION<br/><br/>
+    TERMS & CONDITIONS<br/><br/>
+   
+    All Rights Reserved   <br/><br/> 
+    </strong>
+    </p>
+  </h4> 
+</center> 
+		
+	         
+    <center>
+    <div class="container">
+     <div class="wrapper">
+        <img src="img/image.jpg" width="600" height="450"> 
+        <img src="img/image1.jpg" width="600" height="450"> 
+        <img src="img/image2.jpg" width="600" height="450"> 
+        <img src="img/image4.jpg" width="600" height="450"> 
+           
+    </div>
+    </div>     
+    </center>
+ 
+      
+
+</body>
+</html>
